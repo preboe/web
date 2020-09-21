@@ -1,5 +1,5 @@
 from .models import Artiles
-from django.forms import ModelForm, TextInput, DateTimeInput
+from django.forms import ModelForm, TextInput, DateTimeInput, Textarea
 
 class ArtilesForm(ModelForm):
     class Meta:
@@ -11,25 +11,21 @@ class ArtilesForm(ModelForm):
             "title": TextInput(attrs={
                 'class': 'form-control',
                 'placeholder': 'Название статьи'
-            })
-        }
+            }),
 
-        widgets = {
             "anons": TextInput(attrs={
                 'class': 'form-control',
                 'placeholder': 'Анонс статьи'
-            })
-        }
+            }),
 
-        widgets = {
             "date": DateTimeInput(attrs={
-                'class': 'form-control'
-            })
-        }
+                'class': 'form-control',
+                'placeholder': 'Дата публикации'
+            }),
 
-        widgets = {
-            "full_text": DateTimeInput(attrs={
-                'class': 'form-control'
+            "full_text": Textarea(attrs={
+                'class': 'form-control',
+                'placeholder': 'Текст статьи'
             })
         }
 

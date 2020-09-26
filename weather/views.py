@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
 def app(request):
-    return request(request, 'app.html')
+    return request(request, 'weather/app.html')

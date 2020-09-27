@@ -78,3 +78,9 @@ form {
     border-radius: 10px;
 }
 
+
+.gallery li {
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+}

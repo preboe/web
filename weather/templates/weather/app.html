@@ -5,6 +5,20 @@
 {% block content %}
     <div class="features">
         <h1>Погодное приложения</h1>
-            <p></p>
+<button class="btn btn-warning">Галирея</button>
+    {% load static %}
+
+    <ul class="gallery clip">
+
+        <li>
+
+            <img src="{% static 'main/img/123.jpg' %}" alt="картинка">
+            <img src="{% static 'main/img/1234.jpg' %}" alt="картинка">
+            <img src="{% static 'main/img/12345.jpg' %}" alt="картинка">
+
+        </li>
+
+    </ul>
+
     </div>
 {% endblock %}

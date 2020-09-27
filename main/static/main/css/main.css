@@ -68,6 +68,17 @@ main .features p {max-width: 400px; margin: 20px auto}
 
 form {
     margin-left: 32%;
-    width: 500px;
+    width: 100px;
     margin-top: 50px;
 }
+
+.gallery img {
+    margin: 0 0 25px;
+    text-align: center;
+    width: 300px;
+    height: 170px;
+    border: none;
+    max-width: 50px;
+    max-height: 50px;
+}
+

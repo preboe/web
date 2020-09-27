@@ -73,12 +73,8 @@ form {
 }
 
 .gallery img {
-    margin: 0 0 25px;
-    text-align: center;
-    width: 300px;
-    height: 170px;
-    border: none;
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 280px;
+    max-height: 280px;
+    border-radius: 10px;
 }
 

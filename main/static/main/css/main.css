@@ -1,5 +1,5 @@
 body {
-    background: red;
+    background: #2c2c2c;
 }
 
 aside {
@@ -34,6 +34,7 @@ aside ul {
     list-style: none;
 }
 
+aside ui {list-style: none}
 aside ul li {
     color: #fff;
     display: block;
@@ -83,4 +84,8 @@ form {
     display: inline-block;
     margin: 20px;
     list-style: none;
+}
+
+.wide li {
+    display: block;
 }

@@ -69,7 +69,7 @@ main .features p {max-width: 400px; margin: 20px auto}
 
 form {
     margin-left: 32%;
-    width: 100px;
+    width: 500px;
     margin-top: 50px;
 }
 
@@ -88,4 +88,15 @@ form {
 
 .wide li {
     display: block;
+}
+
+.form-control {
+    text-align:center;
+    width:60%;
+    border:2px solid gray;
+    background:silver;
+    box-shadow:0 0 10pt #727272;
+    padding:10pt;
+    border-radius:4pt;
+    position: relative;
 }
